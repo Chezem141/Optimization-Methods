@@ -1,5 +1,7 @@
-( o _ o)   ---   kill me pls     \n
+```py
+( o _ o)   ---   kill me pls
 |  ||  |
 |  ||  |
   /  \
  |    |
+```

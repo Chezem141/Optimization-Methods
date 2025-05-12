@@ -1,4 +1,4 @@
-( o _ o)   ---   kill me pls
+( o _ o)   ---   kill me pls     \n
 |  ||  |
 |  ||  |
   /  \

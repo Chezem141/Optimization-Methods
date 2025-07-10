@@ -26,9 +26,6 @@ def gradient_method(x, y, eps1, eps2, M):
         if (np.linalg.norm(gradf) < eps1):
             return xk, k+1, 'Условие 1: ||grad(f)|| < eps1'
 
-        def minimize_func(t):
-            return func(xk[0] - t * gradf[0], xk[1] - t * gradf[1])
-
         t = (-5 * xk[0] ** 2 + 32 * xk[0] * xk[1] - 4 * xk[0] - 197 * xk[1] ** 2 + 2 * xk[1] - 1) / (-26 * xk[0] ** 2 + 458 * xk[0] * xk[1] - 10 * xk[0] - 2774 * xk[1] ** 2 + 32 * xk[1] - 2)
 
         print('t = ', t)
